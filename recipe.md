@@ -22,3 +22,4 @@ Then you can also encounter errors due to unexisting tag retrieval, or due diffi
 For unexisting tags, it's just a matter a catching the `AttributeError`, since you're trying to access some undefined property. 
 For the `None` object, well, you just have to check for it. 
 
+If code follows your `try-except` block, the program will carry on running, since Python was just told to handle the error. 
